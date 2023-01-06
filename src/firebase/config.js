@@ -6,14 +6,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAVoXLfvzvI94bJhX-oO512W_RsAqpmU1Q",
-  authDomain: "miniblog-b6986.firebaseapp.com",
-  projectId: "miniblog-b6986",
-  storageBucket: "miniblog-b6986.appspot.com",
-  messagingSenderId: "385417140013",
-  appId: "1:385417140013:web:d96126b3a853b4934665a4",
+  apiKey: "Your apiKey",
+  authDomain: "Your authDomain",
+  projectId: "Your ProjectID",
+  storageBucket: "Your storageBucket",
+  messagingSenderId: "Your messagingSenderId",
+  appId: "Your appID",
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
